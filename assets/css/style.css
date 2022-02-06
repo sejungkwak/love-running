@@ -134,7 +134,6 @@ nav {
   float: right;
   padding-top: 30px;
   width: 33.33%;
-  background-color: coral;
 }
 
 #center-about {
@@ -149,10 +148,23 @@ hr {
   width: 100%;
 }
 
-.left-about-heading {
+.left-about-heading,
+.right-about-heading {
   clear: both;
-  float: right;
   line-height: 20px;
   margin-bottom: 50px;
   width: 60%;
+}
+
+.left-about-heading {
+  float: right;
+}
+
+.right-about-heading {
+  float: left;
+}
+
+.right-about-heading h2,
+.right-about-heading p {
+  text-align: right;
 }
