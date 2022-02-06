@@ -336,10 +336,44 @@ footer {
     line-height: 20px;
     margin-left: 30px;
     margin-bottom: 20px;
-    width: 40%;
+    width: 50%;
   }
 
   #menu li {
     padding: 0;
+  }
+
+  /* club ethos */
+
+  #club-ethos {
+    height: 1200px;
+    width: 90%;
+  }
+
+  #left-about,
+  #right-about {
+    clear: both;
+    float: left;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .left-about-heading,
+  .right-about-heading {
+    clear: both;
+    float: left;
+    width: 100%;
+  }
+
+  .left-about-heading h2,
+  .right-about-heading h2 {
+    text-align: center;
+  }
+
+  .left-about-heading p,
+  .right-about-heading p {
+    padding: 0 20px;
+    text-align: center;
   }
 }
