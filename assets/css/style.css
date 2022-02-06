@@ -287,3 +287,36 @@ footer {
   grid-column: 3;
   grid-row: 3;
 }
+
+/* media queries */
+
+/* for larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+  #club-ethos {
+    height: 1200px;
+    width: 65%;
+    margin: 0 auto;
+  }
+
+  #welcome {
+    margin: 0;
+    padding: 30px 0;
+  }
+
+  #left-about,
+  #right-about {
+    float: left;
+    padding: 0;
+    width: 100%;
+  }
+
+  #center-about {
+    clear: both;
+    padding: 0;
+    width: 100%;
+  }
+
+  hr {
+    display: none;
+  }
+}
