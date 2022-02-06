@@ -118,11 +118,16 @@ nav {
   width: 100%;
 }
 
+#club-ethos h1 {
+  font-size: 250%;
+  margin: 10px auto;
+  text-align: center;
+}
+
 #left-about {
   float: left;
   padding-top: 30px;
   width: 33.33%;
-  background-color: bisque;
 }
 
 #right-about {
@@ -136,4 +141,18 @@ nav {
   margin: 0 auto;
   width: 33.33%;
   background-color: darkgoldenrod;
+}
+
+hr {
+  border-top: 1px solid #3a3a3a;
+  margin: 5px;
+  width: 100%;
+}
+
+.left-about-heading {
+  clear: both;
+  float: right;
+  line-height: 20px;
+  margin-bottom: 50px;
+  width: 60%;
 }
