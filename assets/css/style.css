@@ -111,3 +111,29 @@ nav {
   text-transform: uppercase;
   width: 300px;
 }
+
+/* club ethos */
+#club-ethos {
+  height: 600px;
+  width: 100%;
+}
+
+#left-about {
+  float: left;
+  padding-top: 30px;
+  width: 33.33%;
+  background-color: bisque;
+}
+
+#right-about {
+  float: right;
+  padding-top: 30px;
+  width: 33.33%;
+  background-color: coral;
+}
+
+#center-about {
+  margin: 0 auto;
+  width: 33.33%;
+  background-color: darkgoldenrod;
+}
