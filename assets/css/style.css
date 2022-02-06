@@ -257,6 +257,60 @@ footer {
   grid-row: span 2;
 }
 
+/* sign up page */
+
+.form-section {
+  background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg") center/cover;
+  height: 900px;
+  position: relative;
+}
+
+.signup-form {
+  background-color: rgba(60, 60, 60, .6);
+  color: #fff;
+  left: 10%;
+  margin: 150px 10% 0 0;
+  max-width: 450px;
+  padding: 30px;
+  position: absolute;
+}
+
+.signup-form h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.text-input {
+  background: transparent;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+  color: #fafafa;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  width: 100%;
+}
+
+.text-input:hover {
+  border-color: #f16c6b;
+}
+
+.join-button {
+  background-color: #f16c6b;
+  border-radius: 2px;
+  color: #fafafa;
+  display: block;
+  font-size: 100%;
+  margin-top: 20px;
+  padding: 15px 32px;
+  text-align: center;
+}
+
+.join-button:hover {
+  background-color: #fafafa;
+  color: #f16c6b;
+  cursor: pointer;
+}
+
 /* media queries */
 
 /* for larger to medium screens size from 1200px wide and down */
