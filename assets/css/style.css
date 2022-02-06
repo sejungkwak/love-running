@@ -183,3 +183,23 @@ hr {
   height: 100%;
   width: 100%;
 }
+
+/* meeting times */
+#meeting-times {
+  background: url('../images/dublin-city.webp') rgba(53, 53, 53, 0.8) center/cover;
+  background-blend-mode: overlay;
+  display: flex;
+  height: 300px;
+  justify-content: space-around;
+  overflow: hidden;
+  width: 100%;
+}
+
+.meeting-time,
+.meeting-time h2 {
+  color: #fff;
+  letter-spacing: 3px;
+  line-height: 20px;
+  margin: 3rem 1rem 1rem;
+  text-align: center;
+}
