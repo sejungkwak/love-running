@@ -376,4 +376,15 @@ footer {
     padding: 0 20px;
     text-align: center;
   }
+
+  /* meeting times */
+  #meeting-times {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .meeting-time,
+  .meeting-time h2 {
+    padding: 0;
+  }
 }
