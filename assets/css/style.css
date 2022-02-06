@@ -186,8 +186,7 @@ hr {
 
 /* meeting times */
 #meeting-times {
-  background: url('../images/dublin-city.webp') rgba(53, 53, 53, 0.8) center/cover;
-  background-blend-mode: overlay;
+  background: url('../images/dublin-city.webp') center/cover no-repeat;
   display: flex;
   height: 300px;
   justify-content: space-around;
@@ -195,11 +194,15 @@ hr {
   width: 100%;
 }
 
+.meeting-time {
+  background: rgba(0, 0, 0, .6);
+  border: 2px solid #fff;
+  flex: 1;
+}
+
 .meeting-time,
 .meeting-time h2 {
-  color: #fff;
-  letter-spacing: 3px;
-  line-height: 20px;
-  margin: 3rem 1rem 1rem;
+  color: #fafafa;
+  padding: 30px 0 0 10px;
   text-align: center;
 }
