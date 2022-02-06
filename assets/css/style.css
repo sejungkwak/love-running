@@ -76,7 +76,7 @@ nav {
 }
 
 #hero-image {
-  animation: hero-zoom 1000ms forwards;
+  animation: hero-zoom 5000ms forwards;
   background: url('../images/hero-image.webp') center center no-repeat;
   height: 600px;
   width: 100%;
