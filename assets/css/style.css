@@ -359,11 +359,17 @@ footer {
     line-height: 20px;
     margin-left: 30px;
     margin-bottom: 20px;
-    width: 50%;
+    width: 290px;
   }
 
   #menu li {
     padding: 0;
+  }
+
+  /* cover text in hero image */
+
+  #cover-text {
+    left: 0;
   }
 
   /* club ethos */
